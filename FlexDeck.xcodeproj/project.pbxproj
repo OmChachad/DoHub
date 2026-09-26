@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C10000000000000000000001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* App.swift */; };
+		C10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* ContentView.swift */; };
+		C10000000000000000000003 /* FoldAwareWorkspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* FoldAwareWorkspace.swift */; };
+		C10000000000000000000004 /* GestureAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* GestureAssignment.swift */; };
+		C10000000000000000000005 /* GestureCameraPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* GestureCameraPanel.swift */; };
+		C10000000000000000000006 /* GestureCameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* GestureCameraPreview.swift */; };
+		C10000000000000000000007 /* GestureEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* GestureEditorSheet.swift */; };
+		C10000000000000000000008 /* GestureLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* GestureLibrary.swift */; };
+		C10000000000000000000009 /* GestureLibrarySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* GestureLibrarySheet.swift */; };
+		C1000000000000000000000A /* HandPoseFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* HandPoseFeatures.swift */; };
+		C1000000000000000000000B /* ShortcutPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* ShortcutPanel.swift */; };
+		C1000000000000000000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* FoldAwareWorkspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldAwareWorkspace.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* GestureAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAssignment.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* GestureCameraPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureCameraPanel.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* GestureCameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureCameraPreview.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* GestureEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureEditorSheet.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* GestureLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLibrary.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* GestureLibrarySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLibrarySheet.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* HandPoseFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandPoseFeatures.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* ShortcutPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutPanel.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1000000000000000000000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1000000000000000000000E /* FlexDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000004 /* App */,
+				A10000000000000000000005 /* XcodeExport */,
+				A10000000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* App.swift */,
+				B10000000000000000000002 /* ContentView.swift */,
+				B10000000000000000000003 /* FoldAwareWorkspace.swift */,
+				B10000000000000000000004 /* GestureAssignment.swift */,
+				B10000000000000000000005 /* GestureCameraPanel.swift */,
+				B10000000000000000000006 /* GestureCameraPreview.swift */,
+				B10000000000000000000007 /* GestureEditorSheet.swift */,
+				B10000000000000000000008 /* GestureLibrary.swift */,
+				B10000000000000000000009 /* GestureLibrarySheet.swift */,
+				B1000000000000000000000A /* HandPoseFeatures.swift */,
+				B1000000000000000000000B /* ShortcutPanel.swift */,
+				B1000000000000000000000C /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000005 /* XcodeExport */ = {
+			isa = PBXGroup;
+			children = (B1000000000000000000000D /* Info.plist */, );
+			path = XcodeExport;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (B1000000000000000000000E /* FlexDeck.app */, );
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000002 /* FlexDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000000000000000000000C /* Build configuration list for PBXNativeTarget "FlexDeck" */;
+			buildPhases = (
+				A10000000000000000000008 /* Sources */,
+				A10000000000000000000009 /* Frameworks */,
+				A1000000000000000000000A /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = FlexDeck;
+			productName = FlexDeck;
+			productReference = B1000000000000000000000E /* FlexDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = { A10000000000000000000002 = { CreatedOnToolsVersion = 27.1; }; };
+			};
+			buildConfigurationList = A1000000000000000000000B /* Build configuration list for PBXProject "FlexDeck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, );
+			mainGroup = A10000000000000000000003;
+			productRefGroup = A10000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A10000000000000000000002 /* FlexDeck */, );
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000000000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (C1000000000000000000000C /* Assets.xcassets in Resources */, );
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000001 /* App.swift in Sources */,
+				C10000000000000000000002 /* ContentView.swift in Sources */,
+				C10000000000000000000003 /* FoldAwareWorkspace.swift in Sources */,
+				C10000000000000000000004 /* GestureAssignment.swift in Sources */,
+				C10000000000000000000005 /* GestureCameraPanel.swift in Sources */,
+				C10000000000000000000006 /* GestureCameraPreview.swift in Sources */,
+				C10000000000000000000007 /* GestureEditorSheet.swift in Sources */,
+				C10000000000000000000008 /* GestureLibrary.swift in Sources */,
+				C10000000000000000000009 /* GestureLibrarySheet.swift in Sources */,
+				C1000000000000000000000A /* HandPoseFeatures.swift in Sources */,
+				C1000000000000000000000B /* ShortcutPanel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = XcodeExport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", );
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.b8fbf34e-03fa-43f1-945a-f4e7af6dca44";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = XcodeExport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", );
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.b8fbf34e-03fa-43f1-945a-f4e7af6dca44";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000000000000000000000B /* Build configuration list for PBXProject "FlexDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (D10000000000000000000001 /* Debug */, D10000000000000000000002 /* Release */, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000000000000000000000C /* Build configuration list for PBXNativeTarget "FlexDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (D10000000000000000000003 /* Debug */, D10000000000000000000004 /* Release */, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000001 /* Project object */;
+}
