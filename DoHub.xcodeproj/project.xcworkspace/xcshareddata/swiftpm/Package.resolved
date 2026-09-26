@@ -1,0 +1,24 @@
+{
+  "originHash" : "2563b33a02af9167816ad336ac252c2d93f375b830ce1b0d68cdd84e2d4ea7a8",
+  "pins" : [
+    {
+      "identity" : "conditionals",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Aeastr/Conditionals.git",
+      "state" : {
+        "revision" : "d9d13d2ac5d095354299857c86d8d44f9b6e9e51",
+        "version" : "1.2.3"
+      }
+    },
+    {
+      "identity" : "swiftshortcuts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Aeastr/SwiftShortcuts",
+      "state" : {
+        "revision" : "d95c0d5b6efaa5bbab7fc3ab5a8794f897ef384e",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
